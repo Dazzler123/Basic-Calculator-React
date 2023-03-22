@@ -1,7 +1,12 @@
 import Bootstrap from 'bootstrap';
 import $ from 'jquery';
+import {CalculatorViewController} from "../controller/CalculatorViewController";
 
 export const CalculatorView = () => {
+
+    //call controls file
+    <CalculatorViewController/>
+
     return (
         <div className="row justify-content-center overflow-hidden mt-5">
             <div className="col-6 container-fluid row text-center mt-5 bg-secondary rounded-3">

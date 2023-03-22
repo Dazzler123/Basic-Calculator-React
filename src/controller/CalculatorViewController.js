@@ -51,12 +51,12 @@ export const CalculatorViewController = () => {
         $('#txt_Equation').val($('#txt_Equation').val() + $('#btn_One').text());
     });
 
-            // button 0
-        $('#btn_Zero').click(function () {
-            $('#txt_Equation').val($('#txt_Equation').val() + $('#btn_Zero').text());
-        });
+    // button 0
+    $('#btn_Zero').click(function () {
+        $('#txt_Equation').val($('#txt_Equation').val() + $('#btn_Zero').text());
+    });
 
-        // button plus (+)
+    // button plus (+)
     $('#btn_Plus').click(function () {
         $('#txt_Equation').val($('#txt_Equation').val() + $('#btn_Plus').text());
     });
