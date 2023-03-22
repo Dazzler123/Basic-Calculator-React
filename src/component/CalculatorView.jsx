@@ -1,21 +1,14 @@
 import Bootstrap from 'bootstrap';
 import $ from 'jquery';
-import {CalculatorViewController} from "../controller/CalculatorViewController";
 
 export const CalculatorView = () => {
-
-    //call controls file
-    <CalculatorViewController/>
-
     return (
         <div className="row justify-content-center overflow-hidden mt-5">
             <div className="col-6 container-fluid row text-center mt-5 bg-secondary rounded-3">
-                // <!--textfield & clear all btn-->
                 <button id="btn_Clear_All" type="button" className="col-1 btn btn-warning mt-3">C</button>
                 <div className="col-11 mt-3">
-                    <input id="txt_Equation" type="text" className="form-control" placeholder="0" aria-label="">
+                    <input id="txt_Equation" type="text" className="form-control" placeholder="0" aria-label=""></input>
                 </div>
-                // <!--value buttons-->
                 <div className="col-12 row mt-3 g-1 mb-3">
                     <button id="btn_Seven" type="button" className="col-3 btn btn-light">7</button>
                     <button id="btn_Eight" type="button" className="col-3 btn btn-light">8</button>
