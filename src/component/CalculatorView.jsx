@@ -1,7 +1,5 @@
-import Bootstrap from 'bootstrap';
-import $ from 'jquery';
-
 export const CalculatorView = () => {
+
     return (
         <div className="row justify-content-center overflow-hidden mt-5">
             <div className="col-6 container-fluid row text-center mt-5 bg-secondary rounded-3">
@@ -27,7 +25,7 @@ export const CalculatorView = () => {
 
                     <button id="btn_Zero" type="button" className="col-3 btn btn-light">0</button>
                     <button id="btn_Dot" type="button" className="col-3 btn btn-light">.</button>
-                    <button id="btn_Equals" type="button" className="col-3 btn btn-info">=</button>
+                    <button onClick={answer} id="btn_Equals" type="button" className="col-3 btn btn-info">=</button>
                     <button id="btn_Star" type="button" className="col-3 btn btn-warning">*</button>
                 </div>
             </div>
