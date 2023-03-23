@@ -4,7 +4,7 @@ export const CalculatorView = () => {
     //input field
     let input = $('#txt_Equation');
 
-    // clear textfield
+    // clear text-field
     function clearInput() {
         input.val("");
     }
@@ -23,7 +23,6 @@ export const CalculatorView = () => {
     function btnSeven() {
         input.val(input.val() + 7);
     }
-
 
     // button 6
     function btnSix() {

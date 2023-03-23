@@ -1,98 +1,98 @@
 // import $ from "jquery";
 //
 // export const CalculatorViewController = () => {
+//     //input field
+//     let input = $('#txt_Equation');
+//
 //     // clear textfield
 //     function clearInput() {
-//         $('#txt_Equation').val("");
+//         input.val("");
 //     }
 //
 //     // button 9
 //     function btnNine() {
-//         $('#txt_Equation').val($('#txt_Equation').val() + $('#btn_Nine').text());
+//         input.val(input.val() + 9);
 //     }
 //
 //     // button 8
 //     function btnEight() {
-//         $('#txt_Equation').val($('#txt_Equation').val() + $('#btn_Eight').text());
+//         input.val(input.val() + 8);
 //     }
 //
 //     // button 7
 //     function btnSeven() {
-//         $('#txt_Equation').val($('#txt_Equation').val() + $('#btn_Seven').text());
+//         input.val(input.val() + 7);
 //     }
 //
 //
 //     // button 6
 //     function btnSix() {
-//         $('#txt_Equation').val($('#txt_Equation').val() + $('#btn_Six').text());
+//         input.val(input.val() + 6);
 //     }
 //
-// // button 5
+//     // button 5
 //     function btnFive() {
-//         $('#txt_Equation').val($('#txt_Equation').val() + $('#btn_Five').text());
+//         input.val(input.val() + 5);
 //     }
 //
-// // button 4
+//     // button 4
 //     function btnFour() {
-//         $('#txt_Equation').val($('#txt_Equation').val() + $('#btn_Four').text());
+//         input.val(input.val() + 4);
 //     }
 //
-// // button 3
+//     // button 3
 //     function btnThree() {
-//         $('#txt_Equation').val($('#txt_Equation').val() + $('#btn_Three').text());
+//         input.val(input.val() + 3);
 //     }
 //
-// // button 2
+//     // button 2
 //     function btnTwo() {
-//         $('#txt_Equation').val($('#txt_Equation').val() + $('#btn_Two').text());
+//         input.val(input.val() + 2);
 //     }
 //
-// // button 1
+//     // button 1
 //     function btnOne() {
-//         $('#txt_Equation').val($('#txt_Equation').val() + $('#btn_One').text());
+//         input.val(input.val() + 1);
 //     }
 //
-// // button 0
+//     // button 0
 //     function btnZero() {
-//         $('#txt_Equation').val($('#txt_Equation').val() + $('#btn_Zero').text());
+//         input.val(input.val() + 0);
 //     }
 //
-// // button plus (+)
+//     // button plus (+)
 //     function btnPlus() {
-//         $('#txt_Equation').val($('#txt_Equation').val() + $('#btn_Plus').text());
+//         input.val(input.val() + "+");
 //     }
 //
-// // button minus (-)
+//     // button minus (-)
 //     function btnMinus() {
-//         $('#txt_Equation').val($('#txt_Equation').val() + $('#btn_Minus').text());
+//         input.val(input.val() + "-");
 //     }
 //
-// // button divide (/)
+//     // button divide (/)
 //     function btnSlash() {
-//         $('#txt_Equation').val($('#txt_Equation').val() + $('#btn_Slash').text());
+//         input.val(input.val() + "/");
 //     }
 //
-// // button multiply (*)
+//     // button multiply (*)
 //     function btnStar() {
-//         $('#txt_Equation').val($('#txt_Equation').val() + $('#btn_Star').text());
+//         input.val(input.val() + "*");
 //     }
 //
-// // button decimal dot (.)
+//     // button decimal dot (.)
 //     function btnDot() {
-//         $('#txt_Equation').val($('#txt_Equation').val() + $('#btn_Dot').text());
+//         input.val(input.val() + ".");
 //     }
-//
-//     ////////////////////////////////////////
 //
 //     // calculation expression
 //     function answer() {
-//         var exp = $('#txt_Equation').val();
+//         var exp = input.val();
 //
 //         if (exp) {
-//             $('#txt_Equation').val(eval(exp));
+//             input.val(eval(exp));
 //         } else {
 //             alert("No expression found!");
 //         }
 //     }
 // }
-//
