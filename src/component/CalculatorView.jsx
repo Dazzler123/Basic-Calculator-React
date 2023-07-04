@@ -1,4 +1,5 @@
 import $ from "jquery";
+import Swal from "sweetalert2";
 
 export const CalculatorView = () => {
     //input field
@@ -12,6 +13,9 @@ export const CalculatorView = () => {
     // button 9
     function btnNine() {
         input.val(input.val() + 9);
+        Swal.fire('Any fool can use a computer').then(r => {
+            console.log("Alert fired");
+        });
     }
 
     // button 8
